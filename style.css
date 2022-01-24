@@ -1,0 +1,36 @@
+.container{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-width{
+    width: 450px;
+}
+
+.header-img{
+    width: 400px;
+}
+
+.header-title{
+    font-size: 60px;
+    border-left: 3px solid red;
+    padding-left: 10px;
+}
+
+.title-style{
+    color: red;
+}
+
+.header-button{
+    padding: 15px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
