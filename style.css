@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Yeseva+One&display=swap');
 
 
 *{
@@ -190,6 +190,82 @@
     height: 475px;
 }
 
+.corona-app{
+    font-family: 'Poppins', sans-serif;
+}
+
+.corona-app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corona-app > h1 {
+    text-align: center;
+    line-height: 72px;
+}
+
+.corona-app > h1, .app-text > h1 {
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 700;
+}
+
+.app-img{
+    padding: 25px;
+}
+
 .app-img > img {
     width: 338px;
+}
+
+.app-text {
+    width: 600px;
+}
+
+.app-text > p {
+    color: #3E3E3E;
+    font-size: 18px;
+    line-height: 30px; 
+    padding: 15px 0px;
+}
+
+.app-text > button {
+    width: 157px;
+    padding: 14px;
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.footer-section {
+    height: 177px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text > h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.footer-text > h1 > span {
+    color: #FF5959;
+}
+
+.footer-text > p {
+    padding-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
