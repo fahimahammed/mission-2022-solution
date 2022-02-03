@@ -10,8 +10,9 @@
     margin-right: 156px;
 }
 
-.top-banner{
+.top-banner, .coding-container, .project-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -119,10 +120,6 @@
 
 .coding-container {
     margin: 26px 156px 26px 87px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .coding-banner {
@@ -167,10 +164,6 @@
 
 .project-container {
     margin: 26px 87px 26px 156px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .project-banner {
@@ -258,6 +251,5 @@
 
 .footer-text > p {
     padding-top: 24px;
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
